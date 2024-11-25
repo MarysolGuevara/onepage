@@ -1,0 +1,193 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+      	<br><!--etiqueta para un brinco de renglón-->
+          <a href="#secc1">El verdadero riesgo de que el dinero en efectivo deje de existir</a>
+          <a href="#secc2">El pago electrónico reduce nuestro control sobre el dinero</a>
+          <a href="#secc3">La guerra contra el dinero en efectivo limita la libertad individual para beneficiar a la élite financiera</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El verdadero riesgo de que el dinero en efectivo deje de existir</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		         <br><!--etiqueta para un brinco de renglón-->
+		        <p>Los jubilados, músicos de la calle, artistas, inmigrantes, personas de escasos recursos y quienes no tienen hogar son algunos de los más afectados por la posible eliminación del efectivo. Un análisis independiente sobre el uso del dinero en billetes, realizado en el Reino Unido, concluyó que la apresurada transición hacia los pagos digitales como única opción podría dejar atrás a los grupos más vulnerables de la sociedad.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Los investigadores, tras consultar con banqueros centrales, organizaciones de consumidores y una comisión multipartidista sueca, determinaron que es fundamental abordar este tema con gran cautela para asegurar que todos los individuos se integren en la economía digital.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Los costos sociales asociados a la eliminación del dinero en efectivo serían incalculables. Si bien es verdad que los pagos digitales ofrecen ventajas como la facilidad y conveniencia, así como la posibilidad de disminuir gastos empresariales y mejorar el control sobre la evasión fiscal, la corrupción y el crimen organizado, también pueden generar graves problemas sociales.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>En este sentido, se ha incrementado la inquietud por aquellas personas que carecen de tarjetas de crédito o cuentas bancarias, que enfrentan dificultades para manejar smartphones y computadoras, o incluso que no tienen acceso a internet.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		         <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>El verdadero riesgo de que el dinero en efectivo deje de existir.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>El verdadero riesgo de que el dinero en efectivo deje de existir.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			 <br><!--etiqueta para un brinco de renglón-->
+		        <h1>El pago electrónico reduce nuestro control sobre el dinero</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		         <br><!--etiqueta para un brinco de renglón-->
+		        <p>Si nuestras transacciones tienen que ser de forma electrónica de manera obligatoria porque ya no existe el dinero en efectivo, nuestro dinero se movería de un sitio a otro, es decir, de una entidad bancaria a un comercio o tienda mediante un intermediario, eso si no estamos utilizando una criptomoneda o una red de blockchain.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>De esta manera no solo estamos exponiendo a que la entidad bancaria nos pueda denegar el acceso a nuestro propio dinero, sino que también estamos expuestos a los intermediarios que pueden bloquear nuestras transacciones.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Debemos tener en cuenta que si solo existiera el dinero de forma electrónica, éste estaría en una infraestructura electrónica, lo que significa que puede haber un fallo en su hardware o su software, lo que nos dejaría sin acceso a nuestro dinero o podría desaparecer, es decir, perderlo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		         <p>Sin tener el derecho al dinero en nuestro poder, es decir, de manera tangible y que lo pudiéramos tocar, estaríamos controlados por las entidades bancarias y el sistema financiero. Estos podrían ponernos los tipos de interés que quisieran y cobrarnos por cualquier gestión.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Por tanto, no podríamos hacer mucha cosa para evitar para que nuestro dinero fuera guardado por las entidades bancarias y el sistema financiero que controla las redes de pagos de forma electrónica. El pago a través de forma electrónica favorece el dominio de las empresas financieras.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>PSin dinero en efectivo, además, vamos a tomar peores decisiones financieras, ya que aquellos que pagan de forma electrónica también son más propensos pedir dinero a prestamistas, malgastar los ahorros y utilizar en exceso las tarjetas de crédito. Además, aquellos que pagan a través de móvil suelen gastar más a menudo y más cantidad dinero en comparación de aquellos que utilizan dinero en efectivo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>El pago electrónico reduce nuestro control sobre el dinero.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<br><!--etiqueta para un brinco de renglón-->
+		        <h1>La guerra contra el dinero en efectivo limita la libertad individual para beneficiar a la élite financiera</h1>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La guerra contra el dinero en efectivo se está convirtiendo poco a poco en un conjunto de actuaciones coercitivas de todo tipo adoptadas por los poderes políticos y regulatorios que restringen la libertad y reducen el bienestar de millones de ciudadanos. Todas las iniciativas en contra de la circulación y uso del dinero en efectivo tienen como objetivo el beneficio exclusivo de aquellos que ya ejercen una cantidad excesiva de poder y control sobre la economía y las personas; el oligopolio financiero que tuvimos que rescatar de la quiebra con todos los impuestos de Occidente. Lo último que les queda a los ciudadanos para disfrutar de privacidad, anonimato y libertad personal en sus vidas, cada vez más controladas y encuestadas, es el uso del dinero en efectivo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El dinero efectivo es el único medio legal para cumplir las obligaciones dinerarias ordinarias. Las monedas y billetes que emiten los bancos centrales constituyen la moneda oficial de los países, su uso es legítimo. Las restricciones a su manejo es una aberración de dudosísima legalidad constitucional. Un derecho básico que quienes tienen el deber de defender y garantizar, lo limitan y estigmatizan, sin base de interés general ninguna; pero sí con grandes beneficios al oligopolio financiero de los pagos electrónicos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Muchos expertos señalan que manejar dinero digital es más cómodo y más rápido, pero hay que considerar que probablemente no será seguro, ni para el ciudadano, ni para el sistema financiero en general, y la percepción del gasto es peligrosamente irreal. Hay una coincidencia entre gobiernos y operadores financieros de posicionar la seguridad como punto fuerte de un futuro modelo sin efectivo, en un intento de convencer a los todavía actuales tenedores de dinero físico de que no existe problema alguno en esta materia. Este interés no logra anular las serias dudas que hay ante este intenso proceso de imponer un modelo de sociedad sin dinero en efectivo y que tiende a vulnerar el derecho a la intimidad, la privacidad, la confianza y la libertad del ciudadano.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>La guerra contra el dinero en efectivo limita la libertad individual para beneficiar a la élite financiera.</p>
+    		</div>
+
+    	</div>
+
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
